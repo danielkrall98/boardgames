@@ -11,3 +11,7 @@ The Multiplayer Version is not yet playable.
 ---
 
 [Documentation](./Documentation/README.md)
+
+---
+
+- Bachar & Krall
