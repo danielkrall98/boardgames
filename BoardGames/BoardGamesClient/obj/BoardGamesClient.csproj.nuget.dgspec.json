@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/danielkrall/Desktop/PLUS/WS24/Software Praktikum/project-r2-boardgames-b-main/BoardGames/BoardGamesClient/BoardGamesClient.csproj": {}
+  },
+  "projects": {
+    "/Users/danielkrall/Desktop/PLUS/WS24/Software Praktikum/project-r2-boardgames-b-main/BoardGames/BoardGamesClient/BoardGamesClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielkrall/Desktop/PLUS/WS24/Software Praktikum/project-r2-boardgames-b-main/BoardGames/BoardGamesClient/BoardGamesClient.csproj",
+        "projectName": "BoardGamesClient",
+        "projectPath": "/Users/danielkrall/Desktop/PLUS/WS24/Software Praktikum/project-r2-boardgames-b-main/BoardGames/BoardGamesClient/BoardGamesClient.csproj",
+        "packagesPath": "/Users/danielkrall/.nuget/packages/",
+        "outputPath": "/Users/danielkrall/Desktop/PLUS/WS24/Software Praktikum/project-r2-boardgames-b-main/BoardGames/BoardGamesClient/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielkrall/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.2.1105, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.2.1105, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

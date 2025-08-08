@@ -1,0 +1,43 @@
+BoardGames/
+│
+├── BoardGamesClient/
+│   ├── Content/                            # Content Pipeline
+│   ├── src/
+│   │   ├── Framework/
+│   │   │   └── GameEngine/         
+│   │   │       ├── Board.cs                # Abstract Board Class
+│   │   │       ├── GameState.cs            # Abstract Game State Class
+│   │   │       ├── IGame.cs                # Interface for Games
+│   │   │       ├── IGameManager.cs         # Interface for Game Managers
+│   │   │       ├── Move.cs                 # Abstract Move Classes
+│   │   │       └── Player.cs               # Base Class for Player Data
+│   │   └── Games/
+│   │       ├── Chess/                      # Chess Game Classes
+│   │       │   ├── ChessBoard.cs
+│   │       │   ├── ChessGame.cs
+│   │       │   ├── ChessGameManager.cs
+│   │       │   ├── ChessGameState.cs
+│   │       │   └── ChessMove.cs
+│   │       └── TicTacToe/                  # Tic Tac Toe Game Classes
+│   │           ├── TicTacToeBoard.cs
+│   │           ├── TicTacToeGame.cs
+│   │           ├── TicTacToeGameManager.cs
+│   │           ├── TicTacToeGameState.cs
+│   │           └── TicTacToeMove.cs
+│   ├── Chess.cs                            # Chess Singleplayer
+│   ├── ChessOnline.cs                      # Chess Multiplayer
+│   ├── TicTacToe.cs                        # Tic Tac Toe Singleplayer
+│   ├── TicTacToeOnline.cs                  # Tic Tac Toe Multiplayer
+│   ├── Game1.cs                            # Switch between Games
+│   ├── Program.cs                          
+│   └── BoardGamesFramework.csproj
+│
+├── ChessServer/                            # Chess Server (SignalR)
+│   ├── Program.cs
+│   └── ChessServer.csproj
+│
+├── TicTacToeServer/                        # Tic Tac Toe Server (SignalR)
+│   ├── Program.cs
+│   └── TicTacToeServer.csproj
+│
+└── BoardGamesMultiplayer.sln
