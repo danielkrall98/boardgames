@@ -1,6 +1,6 @@
 # Repository for Software Praktikum Project #
 
-A Board Games Framework using [Monogame](https://monogame.net/).
+A Board Games Framework using [Monogame](https://github.com/MonoGame/MonoGame).
 
 ---
 
