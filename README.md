@@ -14,4 +14,4 @@ The Multiplayer Version is not yet playable.
 
 ---
 
-- Bachar & Krall
+&nbsp;- Bachar & Krall
